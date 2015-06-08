@@ -4,4 +4,4 @@ Everyday
 
 ##メンバー
 
-*kalbi
+*kalbi*

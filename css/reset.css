@@ -40,12 +40,13 @@ footer,header,hgroup,menu,nav,section {
 }
  
 /*nav要素内ulのマーカー（行頭記号）を表示しないようにしています*/
-/*nav ul {
+nav ul {
     list-style:none;
-}*/
+}
 
+/*ol ul ともにデフォルトのリストの番号 ●　や (a)　などなしにする*/
 ol, ul {
-   /* list-style: none;*/
+   list-style: none;
 }
  
 /*引用符の表示が出ないようにしています*/

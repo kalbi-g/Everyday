@@ -2,220 +2,334 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/home.css" rel="stylesheet" type="text/css" media="all">
-<title class= "title">エンジニア志望のダイエット日記</title>
+<title>エンジニア志望のダイエット日記</title>
 </head>
 <body>
 
+<!--ヘッダー要素 記事の見出しになる部分-->
+<header class = "head">
+	<h2>
+		<a href="http://kalbi.youpage.jp/">エンジニア志望のダイエット日記</a>
+	</h2>
+	このサイトは、ダイエットをしながらwebの練習をするためのメモ書き日記です。
+	ダイエット内容やプログラムに関してのブログ風メモ書きがしてあります。 
+	
+	<!--区切り-->
+	<hr size ="1"/>
 
-<!--上部タイトル-->
-<div id = "top">
-  <h1>
-  <a href="http://kalbi.youpage.jp/">エンジニア志望のダイエット日記</a></h1>
-  <p>このサイトは、ダイエットをしながらwebの練習をするためのメモ書き日記です。 </p>
-  <hr class = "headline"/>
-</div>
-<!--上部タイトルEND-->
+	<!--主要なナビゲーションとなるセクションのみを示す-->
+	<nav>
+    <h1>メニュー</h1>
+	<ul>
+	<li><a href="index.html">トップページ</a></li>
+	<li><a href="item.html">ダイエット日記</a></li>
+	<li><a href="shop.html">プログラム記事</a></li>
+	<li><a href="about.html">このブログについて そのうち作る</a></li>
+	<li><a href="profile.html">作者の紹介 そのうちつくる</a></li>
+	</ul>
+	</nav>
 
-<!--ブロック 筋トレとして独立-->
-素晴らしきダイエット参考資料
-<div id = "trainingmenu">
-<h1>やるメニュー 参考サイトへのリンク付き</h1>
-<ul>
-  <li>風呂上り<br>
-    <a href="http://yasekore-diet.jp/out-bath-stretch">楽して痩せる！お風呂上がりのストレッチでダイエットする方法７選</a>
-  </li>
-  <li>いつでも<br>
-    <a href="http://matome.naver.jp/odai/2134684120259796701">お腹凹ますだけでダイエット！「ゲッタマン式ドローイン」【効果とやり方】</a>
-  </li>
-  <li>毎日必ず<br>
-    <a href="http://www.fitnessjunkie.jp/archives/295">～体幹トレーニング、オススメ５選～</a>
-  </li>
-  <li>ランニング中、足首の痛みを感じるなら<br>
-    <a href="http://www.suku-training.jp/online/lesson10.html">これぞ地味トレの真骨頂！『スネトレ』 足首の柔軟性を高めるエクササイズ</a>
-  </li>
-  <li>2日に一回<br>
-  ウォーキング・ランニング5km = 1時間30分程度 現時点では9割ウォーキング
-  </li>
-  <li>毎日やること<br>
-    腹筋10回 * 3セット
-    背筋30回
-    腕立て15回
-    スクワット15回
-    適当なストレッチ
-  </li>
-</ul>
-ありがたやー 毎日がんばろう
-</div>
-<!--ブロック 筋トレとして独立END-->
+</header>
 
+
+
+
+
+<article><!--記事単体-->
+	<section><!--中身の区切り-->
+		素晴らしきダイエット参考資料
+		<!--<div id = "trainingmenu"></div>-->
+		<h1>やるメニュー 参考サイトへのリンク付き</h1>
+		<ul class ="trainingmenu">
+		  <li>風呂上り<br>
+		    <a href="http://yasekore-diet.jp/out-bath-stretch">楽して痩せる！お風呂上がりのストレッチでダイエットする方法７選</a>
+		  </li>
+		  <li>いつでも<br>
+		    <a href="http://matome.naver.jp/odai/2134684120259796701">お腹凹ますだけでダイエット！「ゲッタマン式ドローイン」【効果とやり方】</a>
+		  </li>
+		  <li>毎日必ず<br>
+		    <a href="http://www.fitnessjunkie.jp/archives/295">～体幹トレーニング、オススメ５選～</a>
+		  </li>
+		  <li>ランニング中、足首の痛みを感じるなら<br>
+		    <a href="http://www.suku-training.jp/online/lesson10.html">これぞ地味トレの真骨頂！『スネトレ』 足首の柔軟性を高めるエクササイズ</a>
+		  </li>
+		  <li>2日に一回<br>
+		  ウォーキング・ランニング5km = 1時間30分程度 現時点では9割ウォーキング
+		  </li>
+		  <li>毎日やること<br>
+		    腹筋10回 * 3セット
+		    背筋30~回
+		    腕立て15~回
+		    スクワット60~90回
+		    適当なストレッチ
+		  </li>
+		</ul>
+		
+		ありがたやー 毎日がんばろう
+		
+	</section>
+</article>
+
+
+<article>
+	<section>
+	
+
+	</section>
+	
+</article>
 
 <!--記事内容-->
-<article class = "newsframe">
-<h3 class = "title">2015-0609 このページの設計・コーディング＆筋トレ日記</h3>
+<article class = "articles">
+	<section>
+		<h3>2015-0609 このページの設計・コーディング＆筋トレ日記</h3>
 
-まず初めに、この貧相なページを改造する。
-<ul>現在のページ ver1.0
-  <li>発想5秒、制作3分　背景画像をペイントで用意することに時間を要する</li>
-</ul>
+		まず初めに、この貧相なページを改造する。
+		<ul>現在のページ ver1.0
+		  <li>発想5秒、制作3分　背景画像をペイントで用意することに時間を要する</li>
+		</ul>
 
-<br>
+		<br>
 
-<ul>目標のページ ver1.1
-  <li>目的
-    <ul>
-      <li>ダイエット記録を付ける日記にプログラムのメモ書き　最終目的は体力をつけること(筋肉なら重くてもok)・技術のメモ帳</li>
-      <li>jsやhtml、cssに触ることで技術力の向上</li>
-      <li>記録を付けることで継続を図る (どっちの？)</li>
-    </ul>
-  </li>
+		<ul>目標のページ ver1.1
+		  <li>目的
+		    <ul>
+		      <li>ダイエット記録を付ける日記にプログラムのメモ書き　最終目的は体力をつけること(筋肉なら重くてもok)・技術のメモ帳</li>
+		      <li>jsやhtml、cssに触ることで技術力の向上</li>
+		      <li>記録を付けることで継続を図る (どっちの？)</li>
+		    </ul>
+		  </li>
 
-  <br>
+		  <br>
 
-  <li>やるべきこと - サイト編
-    <ul>
-      <li>デザインをオサレにする  がメモ帳替わりなのでその時のテンションによってデザインがほいほい変わる</li>
-      <li>身体情報はDB化する -MySQL</li>
-      <li>ブログっぽい機能を付ける
-        <ul>
-          <li>コメント機能</li>
-          <li>アクセス解析</li>   
-        </ul>
-      </li>
-    </ul>
-  </li>
+		  <li>やるべきこと - サイト編
+		    <ul>
+		      <li>デザインをオサレにする  がメモ帳替わりなのでその時のテンションによってデザインがほいほい変わる</li>
+		      <li>身体情報はDB化する -MySQL</li>
+		      <li>ブログっぽい機能を付ける
+		        <ul>
+		          <li>コメント機能</li>
+		          <li>アクセス解析</li>   
+		        </ul>
+		      </li>
+		    </ul>
+		  </li>
 
-</ul>
+		</ul>
+		
+		今日の筋トレ
+		<div class= "status">
+		<table>
+		    <tr>
+		      <td>
+		        <th>種目</th>
+		      </td>
+		      <td>
+		      	<th>状態</th>
+		      </td>
+		    </tr>
+		    <tr>
+		    	<td>
+		    		<th>体幹</th>
+		    	</td>
+		    	<td>
+		    		<th>true</th>
+		    	</td>
+		    </tr>
+		    <tr>
+		    	<td>
+		    		<th>風呂上り</th>
+		    	</td>
+		    	<td>
+		    		<th>true</th>
+		    	</td>
+		    </tr>
+		    <tr>
+		    	<td>
+		    		<th>腕のダンベル</th>
+		    	</td>
+		    	<td>
+		    		<th>true</th>
+		    	</td>
+		    </tr>
+		    <tr>
+		    	<td>
+		    		<th>腹筋</th>
+		    	</td>
+		    	<td>
+		    		<th>10*3</th>
+		    	</td>
+		    </tr>
+		    <tr>
+		    	<td>
+		    		<th>背筋</th>
+		    	</td>
+		    	<td>
+		    		<th>50</th>
+		    	</td>
+		    </tr>
+			<tr>
+		    	<td>
+		    		<th>腕立て</th>
+		    	</td>
+		    	<td>
+		    		<th>5*3</th>
+		    	</td>
+		    </tr>
+		    <tr>
+		    	<td>
+		    		<th>スクワット</th>
+		    	</td>
+		    	<td>
+		    		<th>20*4</th>
+		    	</td>
+		    </tr>
+		    <tr>
+		    	<td>
+		    		<th>スネ上げ</th>
+		    	</td>
+		    	<td>
+		    		<th>50</th>
+		    	</td>
+		    </tr>
+		    
+		 </table>
+		 </div>
+		
+		新たな知識 - 食事中に水を飲みすぎてはダメ<br>
+		http://matome.naver.jp/odai/2138051748829955401<br>
 
-というわけで無料のAccessAnalyzerを使いさっそくアクセス解析設置。<br>
+		胃酸が薄まり、酵素が足りなくなり痩せにくい体になるらしい。消化悪くなるのかな？<br>
+		書いてて思ったこと、早くDB化かエクセルにしないとソース超長くなる。<br>
+		明日は時間があるのでこのサイト改造する。<br>
+		開設前を含めた記録を付けておく。<br>
+		<div class= "status">
+		  <table>
+		    <tr>
+		      <td>
+		        <th>日付</th>
+		        <th>体重[kg]</th>
+		        <th>体脂肪率[kg]</th>
+		        <th>筋肉量[kg]</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0528</th>
+		        <th>90.5</th>
+		        <th>29.6</th>
+		        <th>???</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0529</th>
+		        <th>90.8</th>
+		        <th>28.6</th>
+		        <th>???</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0530</th>
+		        <th>90.8</th>
+		        <th>29.2</th>
+		        <th>61</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0531</th>
+		        <th>90.1</th>
+		        <th>29.4</th>
+		        <th>60.3</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0601</th>
+		        <th>90.6</th>
+		        <th>29.5</th>
+		        <th>60.6</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0602</th>
+		        <th>89.4</th>
+		        <th>30.4</th>
+		        <th>59.0</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0603</th>
+		        <th>90.1</th>
+		        <th>29.1</th>
+		        <th>60.6</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0604</th>
+		        <th>89.3</th>
+		        <th>29.7</th>
+		        <th>59.6</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0605</th>
+		        <th>89.1</th>
+		        <th>30.3</th>
+		        <th>58.9</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0606</th>
+		        <th>87.8</th>
+		        <th>30.4</th>
+		        <th>58.0</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0605</th>
+		        <th>88.0</th>
+		        <th>30.4</th>
+		        <th>58.0</th>
+		      </td>
+		    </tr>
 
+		    <tr>
+		      <td>
+		        <th>2015-0608</th>
+		        <th>88.8</th>
+		        <th>30.4</th>
+		        <th>58.6</th>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+		        <th>2015-0609</th>
+		        <th>88.3</th>
+		        <th>29.8</th>
+		        <th>58.8 ←new</th>
+		      </td>
+		    </tr>
+		 </table>
 
-
-
-開設前を含めた記録を付けておく
-<div class= "status">
-  <table>
-    <tr>
-      <td>
-        <th>日付</th>
-        <th>体重[kg]</th>
-        <th>体脂肪率[kg]</th>
-        <th>筋肉量[kg]</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0528</th>
-        <th>90.5</th>
-        <th>29.6</th>
-        <th>???</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0529</th>
-        <th>90.8</th>
-        <th>28.6</th>
-        <th>???</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0530</th>
-        <th>90.8</th>
-        <th>29.2</th>
-        <th>61</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0531</th>
-        <th>90.1</th>
-        <th>29.4</th>
-        <th>60.3</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0601</th>
-        <th>90.6</th>
-        <th>29.5</th>
-        <th>60.6</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0602</th>
-        <th>89.4</th>
-        <th>30.4</th>
-        <th>59.0</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0603</th>
-        <th>90.1</th>
-        <th>29.1</th>
-        <th>60.6</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0604</th>
-        <th>89.3</th>
-        <th>29.7</th>
-        <th>59.6</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0605</th>
-        <th>89.1</th>
-        <th>30.3</th>
-        <th>58.9</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0606</th>
-        <th>87.8</th>
-        <th>30.4</th>
-        <th>58.0</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0605</th>
-        <th>88.0</th>
-        <th>30.4</th>
-        <th>58.0</th>
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        <th>2015-0608</th>
-        <th>88.8</th>
-        <th>30.4</th>
-        <th>58.6</th>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <th>2015-0609</th>
-        <th>88.3</th>
-        <th>29.8</th>
-        <th>58.8 ←new</th>
-      </td>
-    </tr>
- </table>
-</article>
+			</section>
 *計測は自宅の体重計によるものです。筋肉量とかおかしいけど気にしない。
+</article>
 <!--記事内容END-->
 
 
 
-<article class = "newsframe">
+<article class = "articles">
 <h3 class = "title">2015-0608 開設＆筋トレ日記</h3>
 就活が終了し、卒業研究をしながらこれからの半年間過ごしていく。<br>
 そんな私に必要な力、それは<b>「体力」　「コーディング力」　「女子力」</b>の3つの力である！！<br>
@@ -265,9 +379,36 @@
 <!--記事内容END-->
 
 
+
+
+
+
+
+
+<!--footerは文字どおりページ下部に設置する部分 それっぽいサインもしてみたｗ-->
+<footer>
+   	<nav>
+		<a href="http://kalbi.youpage.jp/">トップページ</a>
+		<a href="help.html">ヘルプ</a>
+		<a href="policy.html">利用規約</a>
+		<a href="contact.html">お問合せ</a>
+	</nav>
+   	Copyright (C) 2015 kalbi All Rights Reserved.
+</footer>
+
+
+
+
+
+
+
 <!--アクセス解析部分AD 0~5-->
 
 <!--アクセス解析END-->
+
+
+
+
 
 </body>
 </html>

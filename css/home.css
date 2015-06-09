@@ -19,18 +19,33 @@ text-align: center;
 article {
 	text-align: left;
 }
-.title {
-	color: #333333;
-}
-.headline{
-	size = "1";
+
+/*borderで枠を付ける */
+.articles {
+	border:#000000 double 5px;;
 }
 
-#trainingmenu {
-	text-align: left;
-	border-style: solid;
-	border-width: 1px;
-}
+
+
+/* これと同様に変更すればリストの画像変更は完璧 backgroundのオプションで位置調整*/
+/*list-style-image: urlではなくbackgroundのほうが調節が効く*/
+.trainingmenu , .trainingmenu ul {
+	margin:0; padding:0;
+}  
+.trainingmenu li {
+	list-style:none;
+	padding-left:25px;  
+    background:url('../images/ul-test.gif') left top no-repeat;  
+    line-height:26px;
+}  
+.trainingmenu li ul li {
+	background-image:url('../images/ul-test2.gif');
+}  
+
+/*要削除！！！！！！！！　見やすくするため全体に適応 */
+
+
+
 
 
 b {
@@ -64,4 +79,7 @@ width: 500px;
 margin-top:20px;
 margin-right:auto;
 margin-left:auto;
+ border-collapse: collapse;
+border:1px #666666 solid;
+border-collapse: collapse;
 }

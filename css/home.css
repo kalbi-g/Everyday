@@ -19,12 +19,20 @@ text-align: center;
 article {
 	text-align: left;
 }
-.titile {
+.title {
 	color: #333333;
 }
 .headline{
 	size = "1";
 }
+
+#trainingmenu {
+	text-align: left;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
 b {
 	font-size: 20px;
 	color: #000000;	
@@ -50,7 +58,7 @@ color: #666666;
 text-decoration: none;
 }
 
-div#status {
+.status {
 
 width: 500px;
 margin-top:20px;
